@@ -19,7 +19,7 @@ public class DeleteDemo {
 
 			session.beginTransaction();
 
-			int id = 4;
+			int id = 1;
 			Instructor in = session.get(Instructor.class, id);
 			
 			if (in != null) {

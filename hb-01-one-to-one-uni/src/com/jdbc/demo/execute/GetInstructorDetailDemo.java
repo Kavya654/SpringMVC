@@ -19,7 +19,7 @@ public class GetInstructorDetailDemo {
 
 			session.beginTransaction();
 
-			int id = 3;
+			int id = 5;
 			InstructorDetail in = session.get(InstructorDetail.class, id);
 			
 			System.out.println("instructor detail " +in);
