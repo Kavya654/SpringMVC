@@ -22,7 +22,7 @@ public class GetInstructorCoursesDemo {
 
 			session.beginTransaction();
 			
-			int id = 2;
+			int id = 3;
 			Instructor inst = session.get(Instructor.class, id);
 
 		System.out.println("instructor is : "+inst);
