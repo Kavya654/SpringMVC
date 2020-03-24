@@ -9,7 +9,7 @@
 </head>
 <body>
 
-	The customer is confirmed: ${customer.firstName } ${customer.lastName }
+	The customer is confirmed: ${customer.firstName } ${customer.lastName}  ${customer.courseCode} ${customer.freePasses}  ${customer.postalCode}
 	 
 </body>
 </html>

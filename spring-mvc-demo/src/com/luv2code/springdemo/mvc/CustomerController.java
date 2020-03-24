@@ -28,6 +28,8 @@ public class CustomerController {
 	@RequestMapping("/showForm")
 	public String showForm(Model theModel) {
 		theModel.addAttribute("customer", new Customer());
+		
+		System.out.println(theModel);
 		return "customer-form";
 	}
 
