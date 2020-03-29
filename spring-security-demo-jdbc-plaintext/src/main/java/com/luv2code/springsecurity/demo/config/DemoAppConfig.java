@@ -44,7 +44,7 @@ public class DemoAppConfig {
 
 		ComboPooledDataSource securityDatasource = new ComboPooledDataSource();
 		try {
-			securityDatasource.setDriverClass(env.getProperty("jdbc.Driver"));
+			securityDatasource.setDriverClass(env.getProperty("jdbc.driver"));
 		} catch (PropertyVetoException exc) {
 			throw new RuntimeException();
 		}
